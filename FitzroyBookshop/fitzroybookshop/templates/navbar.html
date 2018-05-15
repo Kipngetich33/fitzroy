@@ -1,0 +1,28 @@
+{% load bootstrap3 %}{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+</head>
+
+<body>
+    <nav id="nav_body" class="navbar navbar-inverse" id="nav_body" >
+        <div class="col-md-5" >
+            <image src="https://image.ibb.co/cw7TYy/logo1.png" id ="logo_image"  style="width:300px;height:150px;"/>
+        </div>
+        <div class="col-md-7">
+            <h1 id ="title">Fitzroy C. Bookshop</h1>
+            <h5 id="menu_bar" style="text-align:center;"> <a href="{%url 'Home'%}">Home</a> &nbsp;&nbsp;|&nbsp;&nbsp;<a href="{%url 'Site_Map'%}">Site Map</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="{%url 'Search'%}">Search</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="{%url 'Maintenance'%}">Maintenance</a></h5>
+
+
+        </div>
+    </nav>
+    </div>
+</body>
+
+</html

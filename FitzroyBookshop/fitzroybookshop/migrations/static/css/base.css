@@ -1,0 +1,21 @@
+h1
+{
+  color: green;
+}
+#welcome_message
+{
+  margin-left: 30px;
+}
+#call_to_action{
+  background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuWSLq8CS5FqjofyPNn_xXZoUNhi_MKnn2owjo3OuGB5ZiM8HCvw');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#description{
+  background: rgba(46, 51, 56, 0.2)!important;
+}
+#description
+{
+  margin:50px;
+}

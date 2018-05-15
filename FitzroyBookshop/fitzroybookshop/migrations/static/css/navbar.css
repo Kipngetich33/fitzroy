@@ -1,0 +1,31 @@
+#menu_bar{
+    text-align: right;
+    color:red;
+}
+#title
+{
+    color: #5e12aa;
+    font-weight: bolder;
+    margin: 20px;   
+    font-size:50px;
+    
+}
+#bread_title{
+    color:#6fa3f7;
+    font-weight: bolder;
+    margin-left:60px;
+}
+#bread{
+    color:#f7956f;
+    font-weight: bolder;
+    
+}
+#nav_body{
+    background-color:#f2f2f2;
+    border:#f2f2f2;
+    padding: 10px;
+}
+#logo_image{
+    width: 400px;
+    height:200px;
+}
